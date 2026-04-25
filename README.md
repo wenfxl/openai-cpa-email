@@ -68,7 +68,7 @@
 **推荐填写：**
 
 ```text
-http:/域名:8000 也就是openai-cpa的项目地址，必须要在公网能访问才行。不要用IP
+http://域名:8000 也就是openai-cpa的项目地址，必须要在公网能访问才行。不要用IP
 ```
 
 ### 2）`EMAIL_WEBHOOK_SECRET`
