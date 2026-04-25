@@ -68,7 +68,7 @@
 **推荐填写：**
 
 ```text
-http://域名:8000 也就是openai-cpa的项目地址，必须要在公网能访问才行。不要用IP
+http://域名:8000 也就是启动openai-cpa项目后的web控制台地址，必须要在公网能访问才行。不要用IP
 ```
 
 ### 2）`EMAIL_WEBHOOK_SECRET`
@@ -114,7 +114,7 @@ openai-cpa里要用同样的值校验。
 你可以在 Cloudflare 里这样填：
 
 ```text
-EMAIL_WEBHOOK_URL = http://域名:8000   #也就是openai-cpa的项目地址，必须要在公网能访问才行。不要用IP
+EMAIL_WEBHOOK_URL = http://域名:8000   #也就是启动openai-cpa项目后的web控制台地址，必须要在公网能访问才行。不要用IP
 EMAIL_WEBHOOK_SECRET = 123456
 EMAIL_WEBHOOK_TIMEOUT_MS = 10000
 ```
