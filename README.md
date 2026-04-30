@@ -69,6 +69,7 @@
 
 ```text
 http://域名:8000 也就是启动openai-cpa项目后的web控制台地址，必须要在公网能访问才行。不要用IP
+http://域名A:8000,http://域名A:8001 如果多台机器跑相同域名可以填多个项目地址，用英文逗号分开
 ```
 
 ### 2）`EMAIL_WEBHOOK_SECRET`
@@ -115,6 +116,7 @@ openai-cpa里要用同样的值校验。
 
 ```text
 EMAIL_WEBHOOK_URL = http://域名:8000   #也就是启动openai-cpa项目后的web控制台地址，必须要在公网能访问才行。不要用IP
+EMAIL_WEBHOOK_URL = http://域名A:8000,http://域名A:8001 如果多台机器跑相同域名可以填多个项目地址，用英文逗号分开
 EMAIL_WEBHOOK_SECRET = 123456
 EMAIL_WEBHOOK_TIMEOUT_MS = 10000
 ```
